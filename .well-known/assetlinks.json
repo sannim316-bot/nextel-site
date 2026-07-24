@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.vercel.nextel_site_mxr4.twa",
+        "sha256_cert_fingerprints": ["20:8B:B7:CC:F5:0E:20:0D:DE:86:9A:1E:F8:23:02:D1:5F:04:9B:FC:00:F3:9D:F3:7E:A3:06:49:0E:6F:5F:B7"]
+      }
+    }]
