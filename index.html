@@ -6,6 +6,15 @@
 <title>NEXTEL — Everything you need, right in one place</title>
 
 <link rel="manifest" href="/manifest.json">
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "7e6fa35f-92c1-4f36-95c7-8cf03c7cb47a",
+    });
+  });
+</script>
 <meta name="theme-color" content="#06231a">
 <link rel="icon" href="/ICON/icon-192.png">
 <link rel="apple-touch-icon" href="/ICON/icon-192.png">
